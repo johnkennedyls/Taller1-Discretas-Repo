@@ -30,7 +30,7 @@ public class TablaVerdad {
         // Puedes cambiar esta expresión dentro del método evaluarExpresion.
         System.out.println("\nTabla de verdad para la expresion: (( p&&q )&&r) || (( p&&q )|| !r) ");
 
-        // 3. Imprimir encabezado de la tabla
+        /// 3. Imprimir encabezado de la tabla
         for (String var : variables) {
             System.out.print(var + "\t");
         }
